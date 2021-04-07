@@ -1,0 +1,27 @@
+{{#if sidebar.comments}}
+    <div class="card m-5t">
+        <div class="card-header">
+            <h5 class="f-s-22 background-bg"><i class="fas fa-comments m-5l f-s-25 background-bg"></i> Ultimos Comentarios Mas Novedosos</h5>
+        </div>
+        <div class="card-body">
+            {{#each sidebar.comments}}
+                <div class="row">
+                    <div class="col m-b5">
+                        <a href="/image/{{image.uniqueId}}">
+                            <img src="/public/upload/{{image.fielName}}" class="w-70 h-90px b-r-15">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <blockquote class="w-100">
+                            <p>{{comment}}</p>
+                            <footer class="background-bg">
+                                <span>{{timeago timeStamp}}</span>
+                                <!--Aqui va el nombre del usuario registrado-->
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/if}}

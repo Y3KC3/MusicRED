@@ -1,0 +1,44 @@
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">
+            <i class="fas fa-music"></i> Carga Una Imagen O Video <i class="fas fa-image"></i>
+        </h3>
+    </div>
+    <hr>
+    <div class="card-body">
+        <form action="/image" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <h3>Escoja Una Imagen</h3>
+                <label for="input-group" class="label-search"></label>
+                <input type="file" name="image" class="input-file" id="input-group" required>
+                <label for="input-group" class="label-input">Buscar</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="title" placeholder="Titulo De La Imagen" required class="input-form" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <textarea name="description" rows="2" class="form-control" placeholder="Descripcion (Opcional)"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn c-p"><i class="fas fa-upload"></i>Publicar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="card mt-3">
+    <div class="card-header">
+        <h3><i class="fas fa-images"></i>Subidas Recientemente<i class="fas fa-music"></i></h3>
+    </div>
+    <hr>
+    <div class="card-body">
+        <div class="row">
+            {{#each images}}
+                <div class="col4-img m-a">
+                    <a href="/image/{{uniqueId}}">
+                        <img src="/public/upload/{{fielName}}" class="w-100 h-100 b-r-15 m-5 m-h-200">
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

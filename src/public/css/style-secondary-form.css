@@ -1,0 +1,231 @@
+.card .card-header h3,
+.card .card-header h3 i {
+    background: rgb(0,255,244);
+    background: linear-gradient(90deg, rgba(0,255,244,1) 0%, rgba(0,64,255,1) 50%, rgba(235,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.background-bg {
+    background: rgb(0,255,244);
+    background: linear-gradient(90deg, rgba(0,255,244,1) 0%, rgba(0,64,255,1) 50%, rgba(235,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background-gray {
+    background: #888;
+}
+
+.color-444 {
+    color: #444;
+}
+
+.f-w-400 {
+    font-weight: 400;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-90px {
+    height: 90px;
+}
+
+.h-120px {
+    height: 120px;
+}
+
+.m-h-200 {
+    max-height: 200px;
+}
+
+.b-r-15 {
+    border-radius: 15px;
+}
+
+.p-4 {
+    padding: 1.5rem;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.m-b5 {
+    margin-bottom: 10px;
+}
+
+.m-3l {
+    margin: 0 4px;
+}
+
+.m-5l {
+    margin: 0 10px;
+}
+
+.m-5t {
+    margin: 10px 0;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.f-s-30 {
+    font-size: 30px;
+}
+
+.f-s-25 {
+    font-size: 25px;
+}
+
+.f-s-22 {
+    font-size: 22px;
+}
+
+.f-s-20 {
+    font-size: 20px;
+}
+
+.f-s-18 {
+    font-size: 18px;
+}
+
+.f-s-16 {
+    font-size:16px;
+}
+
+.card .card-header button {
+    border: none;
+    outline: none;
+}
+
+.card .card-footer button {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #444;
+}
+
+.card .card-footer button:focus {
+    outline: none;
+}
+
+.button {
+    background: rgb(202, 0, 0);
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: rgb(96, 175, 21);
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.b-n {
+    border: none;
+    outline: none;
+}
+
+.b-n:focus {
+    outline: none;
+}
+
+.card-delete {
+    color: #fff;
+}
+
+.card-header .card-delete i {
+    color: #fff;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-footer {
+    padding: 1.2rem 1.2rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #6c757d;
+}
+.blockquote-footer::before {
+    content: "— ";
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,356 @@
+.card {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #ddd;
+    background: #eee;
+}
+
+.card .card-header {
+    text-align: center;
+    padding: 15px;
+}
+
+.card .card-header .card-title {
+    background: rgb(0,255,244);
+    background: linear-gradient(90deg, rgba(0,255,244,1) 0%, rgba(0,64,255,1) 50%, rgba(235,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+.card .card-body .form-group {
+    margin: 10px 30px;
+}
+
+.card .card-body form .form-group .label-input {
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(0,211,255);
+    background: linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(26,26,212,1) 47%, rgba(136,0,255,1) 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    display: inline-block;
+    width: 450px;
+    transition: background 1s;
+}
+
+.card .card-body form .form-group h3 {
+    display: inline-block;
+    color: #444;
+    margin: 0 15px;
+}
+
+.card .card-body form .form-group .input-file {
+    display: none;
+}
+
+.card .card-body form .form-group .input-form {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100%;
+    transition: background 1s, border .5s;
+}
+
+.card .card-body form .form-group .form-control {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 250px;
+    min-height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: background 1s;
+}
+
+.card .card-body form .form-group .btn {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(0,211,255);
+    background: linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(26,26,212,1) 47%, rgba(136,0,255,1) 100%);
+    outline: none;
+    color: #fff;
+    transition: background 1s;
+}
+
+.card .card-body form .form-group i {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.card .card-body form .form-group .label-input:hover,
+.card .card-body form .form-group .btn:hover {
+    opacity: .8;
+}
+
+.card .card-body form .form-group .label-input:active,
+.card .card-body form .form-group .btn:active {
+    background: rgb(18,174,207);
+    background: linear-gradient(90deg, rgba(18,174,207,1) 0%, rgba(26,26,128,1) 47%, rgba(111,17,194,1) 100%);
+    opacity: 1;
+    transition: background 1s;
+}
+
+.card .card-body form .form-group .input-form:hover,
+.card .card-body form .form-group .form-control:hover {
+    background: #ddd;
+    transition: background 1s;
+}
+
+.card .card-body form .form-group .input-form:focus,
+.card .card-body form .form-group .form-control:focus {
+    background: #ddd;
+    transition: background 1s;
+}
+
+@media only screen and (max-width: 1050px) {
+    .card .card-body form .form-group .label-input {
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .card .card-body form .form-group .label-input {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .card .card-body form .form-group .label-input {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .card .card-body form .form-group .label-input {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .card .card-body form .form-group .label-input {
+        width: 185px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .card .card-body form .form-group .label-input {
+        width: 180px;
+    }
+    .card .card-body form .form-group .btn {
+        width: 100%;
+    }
+    .card .card-body form .form-group .form-control {
+        resize: none;
+        height: 150px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+    .card .card-body form .form-group .label-input {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 807px) {
+    .card .card-body form .form-group .label-input {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .card .card-body form .form-group .label-input {
+        width: 100px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .card .card-body form .form-group .label-input {
+        width: 500px;
+    }
+    .card .card-body form .form-group {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .card .card-body form .form-group .label-input {
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .card .card-body form .form-group .label-input {
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .card .card-body form .form-group .label-input {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .card .card-body form .form-group .label-input {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .card .card-body form .form-group .label-input {
+        width: 350px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .card .card-body form .form-group .label-input {
+        width: 410px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .card .card-body form .form-group .label-input {
+        width: 390px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .card .card-body form .form-group .label-input {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    .card .card-body form .form-group .label-input {
+        width: 350px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .card .card-body form .form-group .label-input {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .card .card-body form .form-group .label-input {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .card .card-body form .form-group .label-input {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .card .card-body form .form-group .label-input {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card .card-body form .form-group .label-input {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .card .card-body form .form-group .label-input {
+        width: 220px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card .card-body form .form-group .label-input {
+        width: 250px;
+    }
+    .card .card-header {
+        padding: 8px;
+    }
+    .card .card-body {
+        padding: 0;
+    }
+    .card .card-body .form-group {
+        margin: 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .card .card-body form .form-group .label-input {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card .card-body form .form-group .label-input {
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .card .card-body form .form-group .label-input {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .card .card-body form .form-group .label-input {
+        width: 160px;
+    }
+    .card .card-header .card-title,
+    .card .card-header .fas {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .card .card-body form .form-group .label-input {
+        width: 140px;
+    }
+}

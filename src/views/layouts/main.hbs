@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="/public/css/style-nav.css">
+            <link rel="stylesheet" type="text/css" href="/public/css/style-body.css">
+            <link rel="stylesheet" type="text/css" href="/public/css/style-form.css">
+            <link rel="stylesheet" type="text/css" href="/public/css/style-secondary-form.css">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>MusicRED</title>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <nav class="navigation">
+                <div class="container-a">
+                    <a href="/">
+                        <i class="fas fa-music"></i> MusicRED
+                    </a>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col8">
+                        {{{ body }}}
+                    </div>
+                    <div class="col4">
+                        {{>stats}}
+                        {{>popular}}
+                        {{>comments}}
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                crossorigin="anonymous"></script>
+            <script src="/public/js/scripts.js"></script>
+        </body>
+    </html>

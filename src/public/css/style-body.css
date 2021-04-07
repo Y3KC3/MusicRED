@@ -1,0 +1,77 @@
+.container {
+    padding: 20px 65px;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.col4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.col4-img {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.col8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+}
+
+@media only screen and (max-width: 920px) {
+    .col4-img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .col8 {
+        width: 100%;
+    }
+    .col4-img {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .container {
+        padding: 20px 30px;
+    }
+    .col4-img {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .container {
+        padding: 20px 20px;
+    }
+    .col4-img {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+}
